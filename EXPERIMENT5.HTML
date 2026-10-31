@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION FORM</title>
+</head>
+<body>
+    <center><h1>Student Registration Form</h1></center>
+    <form action="FORM SUBMITTED SUCCESSFULLY!!!.HTML">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+        <label for="course">Course:</label>
+        <select id="course" name="course" required> 
+            <option value="">--Select Course--</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="bca">B.C.A</option>
+            <option value="mca">M.C.A</option>
+            </select><br><br>
+            <label for="contact">Contact No:</label>
+        <input type="text" id="contact" name="contact" placeholder="Enter your contact number" required><br><br>
+         <label for="address">Address:</label><br>
+        <textarea id="address" name="address" row="5" columns="40" placeholder="Enter your address" required></textarea><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        
+    </form>
+</body>
+</html>
